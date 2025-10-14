@@ -322,8 +322,8 @@ export default {
 
     // this.uploadImg = `http://client.skycar-ride.com/${this.lang}/upload-img`;
     // this.setHeadimg = `http://client.skycar-ride.com/${this.lang}/client/set-headimg`;
-    this.uploadImg = `http://client.hi-transfer.com/${this.lang}/upload-img`;
-    this.setHeadimg = `http://client.hi-transfer.com/${this.lang}/client/set-headimg`;
+    this.uploadImg = `https://user.hi-transfer.com/${this.lang}/upload-img`;
+    this.setHeadimg = `https://user.hi-transfer.com/${this.lang}/client/set-headimg`;
     this.myHeaders.Authorization = this.$cookie.get('access_token');
   },
   methods: {

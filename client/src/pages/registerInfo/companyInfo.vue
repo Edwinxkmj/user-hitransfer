@@ -317,7 +317,7 @@ export default {
     }
 
     // this.uploadImg = `http://client.skycar-ride.com/${this.lang}/upload-img`;
-    this.uploadImg = `http://client.hi-transfer.com/${this.lang}/upload-img`;
+    this.uploadImg = `https://user.hi-transfer.com/${this.lang}/upload-img`;
     this.myHeaders.Authorization = this.$cookie.get("access_token");
   },
   methods: {
