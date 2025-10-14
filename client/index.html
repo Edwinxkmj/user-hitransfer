@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <link rel="icon" href="static/logo2.png" type='image/x-ico'/>
+    <title>Hitransfers</title>
+    <style>
+      body { margin: 0;  font-family: OpenSans; }
+      * {
+        font-family: OpenSans, 'Microsoft YaHei' ;
+      }
+      .el-autocomplete-suggestion {
+        width: auto !important;
+        min-width: 240px !important;
+      }
+      .el-notification h2 {
+        font-size: 14px !important;
+      }
+      .el-notification p {
+        font-size: 12px !important;
+      }
+      .el-notification .el-icon-error {
+        margin-top: 5px;
+      }
+      .el-notification .el-notification__closeBtn {
+        top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+  <!--通过ip查询地点-->
+  <!-- <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> -->
+  <script src="https://js.stripe.com/v3/"></script>
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xv71wg66TpeBB3gTdCXxic4MGwLTwqrm"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCARKg5NuO-2h7BkGJga6rdGt35-AvGLAM&signed_in=true&libraries=places&callback=initAutocomplete&language=en"></script>
+  <!-- <script>
+    (function(a,h,c,b,f,g){a["UdeskApiObject"]=f;a[f]=a[f]||function(){(a[f].d=a[f].d||[]).push(arguments)};g=h.createElement(c);g.async=1;g.charset="utf-8";g.src=b;c=h.getElementsByTagName(c)[0];c.parentNode.insertBefore(g,c)})(window,document,"script","https://assets-cli.s2.udesk.cn/im_client/js/udeskApi.js","ud");
+    ud({
+        "code": "56i29df",
+        "selector": ".btn_udesk_im",
+        "link": sessionStorage.getItem('lang') == 'en' ? 'https://lzrw.s2.udesk.cn/im_client/?web_plugin_id=4796&agent_id=6406&group_id=5770&language=en-us&channel=%E8%8B%B1%E8%AF%AD%E5%AE%A2%E6%9C%8D' : 'https://lzrw.s2.udesk.cn/im_client/?web_plugin_id=4796'
+    });
+  </script> -->
+</html>

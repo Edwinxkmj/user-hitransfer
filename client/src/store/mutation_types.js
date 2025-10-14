@@ -1,0 +1,11 @@
+export const SET_ACTIVE_PATH = 'SET_ACTIVE_PATH'
+export const CITY_LOAD_STATUS = 'CITY_LOAD_STATUS'
+export const SET_CITY_LIST = 'SET_CITY_LIST'
+export const SET_AIR_PORT = 'SET_AIR_PORT'
+export const SET_USER_INFO = 'SET_USER_INFO'
+export const CHANGE_LOGIN_SATUS = 'CHANGE_LOGIN_SATUS'
+export const SET_CACHE_ACCOUNT = 'SET_CACHE_ACCOUNT'
+export const CLEAR_CACHE_ACCOUNT = 'CLEAR_CACHE_ACCOUNT'
+export const HIDEN_R_L = 'HIDEN_R_L'
+export const LANG = 'LANG';
+export const CURRENCY = 'CURRENCY';

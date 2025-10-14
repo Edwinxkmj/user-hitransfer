@@ -1,0 +1,224 @@
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #999999 !important;
+}
+
+.fz12 { font-size: 12px; }
+.fz13 { font-size: 13px; }
+.fz14 { font-size: 14px; }
+.fz15 { font-size: 15px !important; }
+.fz16 { font-size: 16px; }
+.fz20 { font-size: 20px; }
+.fz22 { font-size: 22px; }
+.fz24 { font-size: 24px; }
+.fz26 { font-size: 26px; }
+.fz28 { font-size: 28px; }
+.fz30 { font-size: 30px; }
+
+.color-fff { color: #fff; }
+.color-ccc { color: #ccc; }
+.color-999 { color: #999999; }
+.color-333 {color: #333333; }
+.color-666 {color: #666666; }
+.color-green { color: #38846A !important; }
+.color-yellow { color: #F9BD4F; }
+.color-orange { color: #F1604F !important; }
+.color-78A17D { color: #78A17D; }
+
+.cursor { cursor: pointer !important; }
+.underline { text-decoration: underline; }
+.no-underline { text-decoration: none; }
+.p-relative { position: relative; }
+.b-absolute { position: absolute; bottom: 0;}
+.p-absolute { position: absolute; right:  0; }
+.inline-block { display: inline-block; }
+.text-center { text-align: center; }
+.vertical-middle { vertical-align: middle; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.float-left { float: right; }
+
+.ml5 { margin-left: 5px; }
+.ml10 { margin-left: 10px !important; }
+.ml15 { margin-left: 15px !important; }
+.ml20 { margin-left: 20px !important; }
+.ml23 { margin-left: 23px !important; }
+.ml25 { margin-left: 25px !important; }
+.ml35 { margin-left: 35px !important; }
+.ml40 { margin-left: 40px !important; }
+.ml45 { margin-left: 45px !important; }
+.ml50 { margin-left: 50px !important; }
+.ml52 { margin-left: 52px !important; }
+.ml55 { margin-left: 55px !important; }
+.ml60 { margin-left: 60px !important; }
+.ml70 { margin-left: 70px !important; }
+.ml80 { margin-left: 80px !important; }
+.ml105 { margin-left: 105px !important; }
+.mr20 { margin-right: 20px !important; }
+.mr5 { margin-right: 5px !important; }
+.mr30 { margin-right: 30px !important; }
+.mt-5 { margin-top: -5px !important; }
+.mt2 { margin-top: 2px !important; }
+.mt5 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important;  }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt40 { margin-top: 40px !important; }
+.mt50 { margin-top: 50px !important; }
+.mt60 { margin-top: 60px !important; }
+.mt80 { margin-top: 80px !important; }
+.mt90 { margin-top: 90px !important; }
+.mt100 { margin-top: 100px !important; }
+.mt120 { margin-top: 120px !important; }
+.mb10 { margin-bottom: 10px !important; }
+
+.pd10 { padding: 10px; }
+.pd20 { padding: 20px; }
+.pd40 { padding: 40px; }
+.pt20 { padding-top: 20px; }
+.pt25 { padding-top: 25px; }
+.plf30 { padding: 0 30px; }
+.plf15 { padding: 0 15px; }
+.fw0 { font-weight: normal; }
+.fw500 { font-weight: 500; }
+.fw550 { font-weight: 550; }
+.fw600 { font-weight: 600; }
+
+.wh10 {width: 10px;height: 10px; }
+.wh12 {width: 12px;height: 12px; }
+.wh14 {width: 14px;height: 14px; }
+.wh16 {width: 16px;height: 16px; }
+.wh20 {width: 20px;height: 20px;}
+.wh21 {width: 21px;height: 21px;}
+.wh30 {width: 30px;height: 30px;}
+.wh32 {width: 32px;height: 32px;}
+.wh40 {width: 40px;height: 40px;}
+.wh46 {width: 46px;height: 46px;}
+.wh60 {width: 60px;height: 60px;}
+.wh200 {width: 200px;height: 200px; }
+
+.error {
+    color: #f26049 !important;
+    margin: 0 5px !important;
+    font-size: 14px !important;
+  }
+
+.erro-info {
+    font-size: 12px;
+    color:rgba(242,96,73,1);
+    margin: 0 0 0 15px;
+    padding: 0;
+    height: 17px;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-center { align-items: center; }
+.item-start { align-items: flex-start; }
+.flex { display: flex; }
+
+.flex-wrap { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.csssubstring-w-350 {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 350px;
+    display: inline-block;
+}
+
+.el-date-table td.current:not(.disabled) span { 
+    background-color: #38846A !important; 
+    color: #fff !important;
+ }
+ .el-date-table td.current:not(.disabled) span:hover { color: #fff !important; }
+
+.el-date-table td.available:hover,
+.el-picker-panel__icon-btn:hover,
+.el-date-picker__header-label:hover,
+.el-button--text,
+.el-select-dropdown__item.selected,
+.el-time-panel .el-time-panel__btn  { color: #38846A !important; }
+
+.el-date-picker .el-button,
+.el-date-table td.today span,
+.el-date-table td.today span:hover {
+    color: #38846A !important; 
+}
+.el-date-picker .el-button.el-button--default:hover {  
+    color: #38846A !important; 
+    border: 1px solid #38846A !important;  
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ .custom-btn {
+    width: 100%;
+    border-radius: 12px;
+    color: #fff !important;
+    background: linear-gradient(#328C6E, #4B9D63);
+    box-shadow: 0 2px 20px 0 rgba(51, 51, 51, 0.5);
+  }
+
+  .custom-btn:hover {color: #fff !important;}
+
+  .fw-500 { font-weight: 500; }
+
+  .customize .el-checkbox__input {display: none; }
+  .customize .el-checkbox__input.is-checked+.el-checkbox__label {color: #fff;}
+  .customize .el-form-item__label {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+}
+.customize .el-input__inner {border-radius: 12px;}
+.customize .el-form-item { margin-bottom: 30px; margin-top: 10px; }
+.customize .el-form-item__content {
+    width: 80%;
+    left: 20px;
+}
+.customize .area-code .el-input__inner,
+.airorder .area-code .el-input__inner{ width: 80px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; }
+.tel-input >.el-input__inner{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+// .text-left { text-align: right; }
+
+.c-pagination button[data-v-2063a41e]:disabled {
+    background-color: #fff !important;
+}
+
+.el-notification {
+    padding: 5px 26px 5px 13px !important;
+    
+}
+
+/deep/ {
+    .el-notification__title {
+        font-size: 14px !important;
+    }
+}
+
+
+
+
+
+
