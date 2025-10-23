@@ -16,11 +16,16 @@
                     <p class="mt30"> You will pay the service fee directly to the third party service provider through the designated third party payment platform.</p>
                 </div>
                 <div class="color-333" v-if="active == 2">
-                    <p class="mt30">For the personal information you provide to us, we will use a strict security system to ensure that it is not stolen or lost, not leaked, misused or altered.</p>
-                    <p class="mt30">
-                        In order to better serve and upgrade our products, we may provide the data we obtain to third parties for analysis and statistics. It is also possible to use third-party products or services as we provide services. The above third-party companies or individuals will only be exposed to your personal information if necessary, and we will ensure that they are subject to strict confidentiality terms.
-                        According to Chinese laws and regulations or according to the orders of government departments, judicial organs or other law enforcement agencies or according to law, we or Hong Kong Rocket Travel Companies may need to provide the data we obtain to the above-mentioned government departments, judicial organs or other law enforcement agencies.</p>
-                    <p class="mt30">According to Chinese laws and regulations or according to the orders of government departments, judicial organs or other law enforcement agencies or according to law, we or Hong Kong Rocket Travel Companies may need to provide the data we obtain to the above-mentioned government departments, judicial organs or other law enforcement agencies.</p>
+                    <p class="mt30 fw600">Personal Information Protection Policy</p>
+                    <p class="mt30">Hong Kong Hi Transfers Limited (the "Company") highly values the confidentiality and security of users' personal data. The Company will handle and protect the personal information provided by users in accordance with the Hong Kong Personal Data (Privacy) Ordinance and other relevant legal provisions.</p>
+                    <p class="mt30 fw600">1. Data Security Measures</p>
+                    <p class="mt30">The Company has implemented strict technical and administrative measures to prevent the theft, loss, leakage, alteration, or unauthorized use of personal data.</p>
+                    <p class="mt30 fw600">2. Use of Data and Third-Party Sharing</p>
+                    <p class="mt30">To improve services and enhance product features, the Company may provide the collected data to third parties for statistical analysis or use third-party products or services in the course of service provision. Such third parties will only have access to personal data to the extent necessary and are bound by confidentiality agreements with the Company.</p>
+                    <p class="mt30 fw600">3. Disclosure Required by Law</p>
+                    <p class="mt30">Where required by applicable laws and regulations of the Hong Kong Special Administrative Region, or pursuant to lawful requests from government departments, judicial authorities, or other law enforcement agencies, the Company may be obliged to disclose the data in its possession to the relevant authorities.</p>
+                    <p class="mt30 fw600">4. User Rights</p>
+                    <p class="mt30">You have the right to access and correct your personal data in accordance with the law. If you have any questions regarding this Policy, please contact the Company for further assistance.</p>
                 </div>
                 <div class="color-333" v-if="active == 4">
                     <p>{{$t('p.user-tip1')}}</p>
