@@ -15,6 +15,7 @@
         </div>
         <div>
           <p @click="goHelp(6)">{{$t('help.website')}}</p>
+          <p>Contact: +85268809356 Mr He</p>
           <!-- <p class="fw550">{{$t('help.help')}}</p>
           <p class="btn_udesk_im">{{$t('help.online-chat')}}</p>-->
         </div>
