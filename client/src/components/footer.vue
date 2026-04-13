@@ -30,6 +30,7 @@
 
       <div class="bottomTitle">
         © 2019 Global Transfers. All rights reserved.
+        Contact: +85268809356 Mr He
         ICP证: 
         <a
           target="_black"
