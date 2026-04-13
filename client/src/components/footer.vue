@@ -30,7 +30,9 @@
 
       <div class="bottomTitle">
         © 2019 Global Transfers. All rights reserved.
+        <br />
         Contact: +85268809356 Mr He
+        <br />
         ICP证: 
         <a
           target="_black"
@@ -103,8 +105,9 @@ export default {
 
 #zyFooter .bg .bottomTitle {
   width: 1201px;
-  height: 78px;
-  line-height: 78px;
+  min-height: 78px;
+  line-height: 24px;
+  padding: 14px 0;
   margin: 0 auto 0;
   border-top: 2px solid #3d3d3d;
   text-align: center;
